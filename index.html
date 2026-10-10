@@ -288,9 +288,9 @@
     /* ───── LEGENDS ───── */
     #legends{padding:6rem 2rem;max-width:1200px;margin:0 auto}
     .legends-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2.5rem}
-    .legend-card{position:relative;aspect-ratio:3/4;border-radius:4px;
+    .legend-card{position:relative;aspect-ratio:3/4;border-radius:4px;background:var(--s2);
       overflow:hidden;cursor:pointer}
-    .legend-img{width:100%;height:100%;object-fit:cover;
+    .legend-img{display:none;
       transition:transform .45s ease;background:#1a1a1a}
     .legend-card:hover .legend-img{transform:scale(1.06)}
     .legend-ov{position:absolute;inset:0;
@@ -662,7 +662,6 @@
   <div class="legends-grid">
 
     <div class="legend-card">
-      <img class="legend-img" src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&q=80" alt="Gym" loading="lazy" onerror="this.style.display='none'">
       <div class="legend-ov"></div>
       <div class="legend-body">
         <div class="legend-name">ARNOLD SCHWARZENEGGER</div>
@@ -672,7 +671,6 @@
     </div>
 
     <div class="legend-card">
-      <img class="legend-img" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80" alt="Gym" loading="lazy" onerror="this.style.display='none'">
       <div class="legend-ov"></div>
       <div class="legend-body">
         <div class="legend-name">RONNIE COLEMAN</div>
@@ -682,7 +680,6 @@
     </div>
 
     <div class="legend-card">
-      <img class="legend-img" src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=600&q=80" alt="Gym" loading="lazy" onerror="this.style.display='none'">
       <div class="legend-ov"></div>
       <div class="legend-body">
         <div class="legend-name">DORIAN YATES</div>
@@ -692,7 +689,6 @@
     </div>
 
     <div class="legend-card">
-      <img class="legend-img" src="https://images.unsplash.com/photo-1581009137042-c552e485697a?w=600&q=80" alt="Gym" loading="lazy" onerror="this.style.display='none'">
       <div class="legend-ov"></div>
       <div class="legend-body">
         <div class="legend-name">JAY CUTLER</div>
@@ -702,7 +698,6 @@
     </div>
 
     <div class="legend-card">
-      <img class="legend-img" src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=600&q=80" alt="Gym" loading="lazy" onerror="this.style.display='none'">
       <div class="legend-ov"></div>
       <div class="legend-body">
         <div class="legend-name">PHIL HEATH</div>
@@ -712,7 +707,6 @@
     </div>
 
     <div class="legend-card">
-      <img class="legend-img" src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80" alt="Gym" loading="lazy" onerror="this.style.display='none'">
       <div class="legend-ov"></div>
       <div class="legend-body">
         <div class="legend-name">KAI GREENE</div>
