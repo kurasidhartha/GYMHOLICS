@@ -22,7 +22,7 @@ Enter your stats → get a fully personalized plan in seconds.
 
 ## 🚀 Tech Stack
 
-Pure **HTML + CSS + Vanilla JS** — zero dependencies, zero frameworks, zero backend.
+Pure **HTML + CSS + Vanilla JS** — 
 
 ---
 
